@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="like2.css" />
+    <link rel="icon" href="img/gente.png" />
+    <title>Mi Perfil</title>
+  </head>
+
+  <body>
+    <nav class="navbar" id="navbar">
+      <h1 class="network" id="network">Network</h1>
+    </nav>
+    <div class="viewport" id="viewport">
+      <div class="profile" id="profile">
+        <img src="duko.jpg" alt="Foto perfil" />
+        <h2 class="name" id="name">DukiSsj</h2>
+      </div>
+      <div class="likes-container" id="likes-container">
+        <h1 class="feed" id="feed">Your Feed</h1>
+        <div class="like-linn" id="like-linn">
+          <h2 class="name-linn" id="name-linn">Linn O.</h2>
+          <div class="btn-likes" id="btn-likes">
+            <p class="likes-linn" id="likes-linn">0 like(s)</p>
+            <button
+              onclick="aumentarLike('likes-linn')"
+              class="btn-linn"
+              id="btn-linn"
+            >
+              Like
+            </button>
+          </div>
+          <p class="description-linn" id="description-linn">
+            Acabo de configurar este nuevo bot de Discord, cuéntenme que opinan
+            ustedes. <a href="https://discord.com/login">Link</a>
+          </p>
+        </div>
+        <div class="like-lina" id="like-lina">
+          <h2 class="name-lina" id="name-lina">Lina K.</h2>
+          <div class="btn-likes" id="btn-likes">
+            <p class="likes-lina" id="likes-lina">0 like(s)</p>
+            <button
+              onclick="aumentarLike('likes-lina')"
+              class="btn-lina"
+              id="btn-lina"
+            >
+              Like
+            </button>
+          </div>
+          <p class="description" id="description">
+            Acabo de terminar este
+            <a href="https://www.crazyallcomics.cl/">nuevo comic</a>, denle un
+            vistazo.
+          </p>
+        </div>
+        <div class="like-mateo" id="like-mateo">
+          <h2 class="name-mateo" id="name-mateo">Mateo H.</h2>
+          <div class="btn-likes" id="btn-likes">
+            <p class="likes-mateo" id="likes-mateo">0 like(s)</p>
+            <button
+              onclick="aumentarLike('likes-mateo')"
+              class="btn-mateo"
+              id="btn-mateo"
+            >
+              Like
+            </button>
+          </div>
+          <p class="description" id="description">
+            No puedo dejar de escuchar este
+            <a
+              href="https://open.spotify.com/intl-es/album/5IgfITgolOnYBRJevWS2GO?si=050eZGuSTyqR0rB9IG9ZHw"
+              >album</a
+            >. ¿A quién más le gusta?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="like2.js"></script>
+  </body>
+</html>
